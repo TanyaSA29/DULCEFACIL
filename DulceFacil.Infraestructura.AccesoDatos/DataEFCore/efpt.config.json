@@ -1,0 +1,73 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "BDDulceFacilContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "C:\\Users\\Administrador\\Desktop\\S3_TanyaArias_Tarea#3\\Proyecto Deber-DulceFacil\\APIdulceFacil\\DulceFacil.Dominio.Modelo\\Entidades",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "DulceFacil.Infraestructura.AccesoDatos",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Cliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DetalleVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Producto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntoDeVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RutaEntrega]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Venta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ZonaGeografica]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
