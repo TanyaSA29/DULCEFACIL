@@ -1,4 +1,9 @@
+
 ﻿using DulceFacil.Infraestructura.AccesoDatos;
+
+﻿using DulceFaci.Aplicacion.DTO.DTOs;
+using DulceFacil.Infraestructura.AccesoDatos;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +34,18 @@ namespace DulceFacil.Aplicacion.Servicios
         [OperationContract]
         Task<List<Cliente>> ListarClientesConVentasDeProductosCostosos(decimal precioMinimo);
 
-
+        [OperationContract]
+        public Task<List<ClienteVentasDTO>> ListarClientesConVentas();
+        [OperationContract]
+        Task<List<ClienteCompraDetalleDTO>> ListarDetalleComprasPorCliente();
+        [OperationContract]
+        Task<List<ClienteVentaResumenDTO>> ListarResumenVentasPorCliente();
+        [OperationContract]
+        Task<List<ClienteDetalleDTO>> ListarClientesConProductosYPuntoVenta();
+        [OperationContract]
+        Task<List<ClienteResumenDTO>> ListarResumenClientes();
+        [OperationContract]
+        Task<List<ClienteUltimaCompraDTO>> ListarUltimaCompraClientes();
 
     }
 }

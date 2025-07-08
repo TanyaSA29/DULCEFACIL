@@ -10,5 +10,8 @@
     <Folder Include="Entidades\" />
     <Folder Include="ObjetoValor\" />
   </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DulceFaci.Aplicacion.DTO\DulceFaci.Aplicacion.DTO.csproj" />
+	</ItemGroup>
 
 </Project>

@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DulceFaci.Aplicacion.DTO.DTOs
+{
+    public class ClienteResumenDTO
+    {
+        public string NombreCliente { get; set; }
+        public int NumeroVentas { get; set; }
+        public int CantidadProductos { get; set; }
+        public decimal TotalGastado { get; set; }
+        public decimal PromedioPorVenta { get; set; }
+    }
+}

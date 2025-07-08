@@ -1,4 +1,6 @@
+
 ﻿using DulceFacil.Aplicacion.Servicios;
+﻿using DulceFaci.Aplicacion.DTO.DTOs;
 using DulceFacil.Dominio.Modelo.Abstracciones;
 using DulceFacil.Infraestructura.AccesoDatos;
 using DulceFacil.Infraestructura.AccesoDatos.Repositorio;
@@ -42,6 +44,18 @@ namespace DulceFacil.Aplicacion.ServicioImpl
         {
             return _productoRepositorio.ListarProductosConStock();
         }
+
+
+        public Task<List<ProductoTipoDTO>> ListarProductosPorTipo()
+        {
+            return _productoRepositorio.ListarProductosPorTipo();
+        }
+
+        public Task<List<ProductoClientesDTO>> ListarProductosVendidosConClientes()
+        {
+            return _productoRepositorio.ListarProductosVendidosConClientes();
+        }
+
 
         public async Task UpdateProductoAsync(Producto entidad)
         {

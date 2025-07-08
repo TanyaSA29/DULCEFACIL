@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace DulceFacil.Dominio.Modelo.Abstracciones
 {
+
     public  interface IDetalleVentaRepositorio : IRepositorio<DetalleVenta>
+
     {
     }
 }
